@@ -1,0 +1,57 @@
+{
+  "LocalAddress": "10.1.1.111",
+  "LocalPort": "8160",
+  "Enabled": "true",
+  "TargetDisk": [
+    "C",
+    "D",
+    "E"
+  ],
+  "Receive": [
+    {
+      "Title": "A",
+      "Src": "10.1.1.111",
+      "Port": "8160",
+      "UsableSpace": "10.5",
+      "Threshold_percent": "80",
+      "Comment": "PC_01",
+      "Enabled": "true",
+      "Interval": "60",
+      "TargetDisk": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "Title": "B",
+      "Src": "10.1.1.122",
+      "Port": "8160",
+      "UsableSpace": "10.5",
+      "Threshold_percent": "70",
+      "Comment": "PC_02",
+      "Enabled": "true",
+      "Interval": "60",
+      "TargetDisk": [
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "Title": "C",
+      "Src": "10.1.1.123",
+      "Port": "8160",
+      "UsableSpace": "10.5",
+      "Threshold_percent": "60",
+      "Comment": "PC_03",
+      "Enabled": "true",
+      "Interval": "60",
+      "TargetDisk": [
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  ]
+}
